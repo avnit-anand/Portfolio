@@ -513,7 +513,7 @@ Projects
 }
 
 .project:hover .project-img{
-   opacity: 0.2;
+   opacity: 0.025;
 }
 
 .project::after{
@@ -568,19 +568,19 @@ Projects
   .project{
     height: 100%;
   }
-  .project-1{
+  .the-tea-shop{
     grid-area: a;
   }
 
-  .project-2{
+  .backroads{
     grid-area: b;
   }
 
-  .project-3{
+  .jobify{
     grid-area: c;
   }
 
-  .project-4{
+  .peer-learning{
     grid-area: d;
   }
 }
