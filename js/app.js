@@ -3,6 +3,8 @@ const navBtn = document.querySelector("#nav-btn");
 const closeBtn = document.querySelector("#close-btn");
 const sidebar = document.querySelector("#sidebar");
 const date = document.querySelector("#date");
+const sidebarProjectBtn = document.querySelector("#project-btn-id");
+const sidebarAboutBtn = document.querySelector("#about-btn-id");
 // add fixed class to navbar
 window.addEventListener("scroll", function () {
   if (window.pageYOffset > 80) {
@@ -16,6 +18,12 @@ navBtn.addEventListener("click", function () {
   sidebar.classList.add("show-sidebar");
 });
 closeBtn.addEventListener("click", function () {
+  sidebar.classList.remove("show-sidebar");
+});
+sidebarProjectBtn.addEventListener("click", function () {
+  sidebar.classList.remove("show-sidebar");
+});
+sidebarAboutBtn.addEventListener("click", function () {
   sidebar.classList.remove("show-sidebar");
 });
 // set year
